@@ -1,0 +1,421 @@
+.principal{
+    color: aliceblue;
+    width: 100%;
+    height: 605px;
+    position: relative;
+}
+.principal video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background:#1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+.principal header{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding:50px 100px 0 100px;
+
+}
+
+.principal nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.principal nav ul li{
+    font-size: 25px;
+    width: 100px;
+}
+
+.principal nav ul li:hover {
+    color: #8B4513;
+    user-select: none;
+    cursor: pointer;
+
+}
+
+.principal header p{
+    font-size: 50px;
+
+}
+
+.principal section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.principal section h1{
+    font-size: 40px;
+}
+
+.principal section h2{
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.caja{
+    padding-left: 6%;
+    padding-top:5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articulo{
+    display: flex;
+    flex-grow: 1;
+    padding-bottom: 40px;
+}
+
+.columna-imagen{
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-right: 3%;
+}
+
+.columna-imagen h2{
+    font-size: 40px;
+    padding-bottom: 40px;
+    font-family: sans-serif;
+}
+
+.columna-imagen img{
+    width: 100%;
+    padding-bottom: 15px;   
+}
+
+.columna-imagen h3{
+    font-size: 25px;
+    font-family: sans-serif;
+    padding-bottom: 15px;
+}
+
+.columna-imagen p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 0 1em;
+}
+
+.button{
+    background-color: black;
+    color: aliceblue;
+    height: 60px;
+    text-align: center;
+    width: 180px;
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5%;
+}
+
+
+.columna-descripcion{
+    flex-basis: 60%;
+}
+
+.columna-descripcion h2{
+    font-size: 40px;
+    padding-bottom: 1.5rem;
+    font-family: sans-serif;
+}
+
+.curso{
+    list-style: none;
+    text-align: start;
+}
+
+.curso h4{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.curso p{
+    display: inline;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info{
+    margin-bottom:2rem;
+}
+
+.curso button{
+    width: 19.5rem;
+    line-height: 2rem;
+    height: auto;
+    text-align: center;
+    background-color: #794d3d;
+    color: aliceblue;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.articulo-two{
+    width: 61.9%;
+}
+.articulo-three{
+    width: 61.9%;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 8rem;
+    color: aliceblue;
+    background-color: #1c1c1d;
+    justify-content: space-between;
+}
+
+footer p{
+    margin: 0;
+    margin-left: 40px;
+    align-self: center;
+    font-size:50px;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    align-self: center;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+
+
+footer ul li{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+footer ul li:hover {
+    color:#8B4513;
+    user-select: none;
+    cursor: pointer;
+
+}
+
+body::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+.us{
+    position: relative;
+    bottom: 0;
+    color: aliceblue;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+}
+
+.nosotros-tittle{
+    width: 100%;
+    height: 8rem;
+    color:#1c1c1d;
+    font-size: 2rem;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.us div{
+    color: #1c1c1d;
+    flex-basis: 50%;
+}
+.us :nth-child(1){
+    padding-left: 2rem;
+}
+
+.us :nth-child(2){
+    padding-left: 1.5rem;
+    padding-right: 3rem;
+    padding-top: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.curso-one{
+    width: 80%;
+    height: 30rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem;
+}
+
+.main-curso h2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    font-family: sans-serif;
+
+}
+
+.curso-one__img{
+    flex-basis: 42%;
+}
+
+.curso-one__img img{
+    height: 100%;
+    width: auto;
+}
+
+.curso-one__inf{
+    flex-basis: 70%;
+    padding: 1.5rem;
+}
+
+.curso-one__inf h3{
+    font-family: sans-serif;
+    font-size: 1.6rem;
+}
+
+.inf{
+    display: flex;
+    margin: 2rem;
+    margin-left: 0;
+}
+
+.inf p{
+    margin-right: 0.3rem;
+}
+.inf span{
+    font-weight: bold;
+}
+
+#text{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .principal header{
+        display: block;
+        text-align: center;
+    }
+    .principal section{
+        display: block;
+        text-align: center;
+    }
+    .articulo{
+        display: block;
+    }
+    .articulo-two{
+        display: block;
+    }
+    .articulo-three{
+        display: block;
+    }
+    .principal video{
+        text-align: center;
+    }
+    footer{
+        display: block;
+    }
+    .us{
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+    .us :nth-child(1){
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .us :nth-child(2){
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 3rem;
+    }
+    .curso-one{
+        display:inline-block
+    }
+}
+
+@media(max-width:430px){
+    .curso button{
+        width: 90%;
+    }
+}
+
+@media(max-width: 320px){
+    .principal video{
+        width: 370px;
+    }
+    .capa{
+        width: 370px;
+    }
+}
